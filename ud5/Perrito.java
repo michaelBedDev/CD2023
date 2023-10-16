@@ -1,3 +1,5 @@
+package CD2023.ud5;
+
 public class Perrito{
 
     String nome;
@@ -18,9 +20,7 @@ public class Perrito{
     public void comer() {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
-            System.out.print("Guau guau");
+            System.out.println("Guau guau");
         }
     }
-    
-    
-    }
+}
