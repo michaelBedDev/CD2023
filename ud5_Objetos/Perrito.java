@@ -16,8 +16,10 @@ public class Perrito{
     }
     
     public void comer() {
-        System.out.println("Guau guau Guau guau Guau guau Guau guau Guau guau");
-    
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+            System.out.print("Guau guau");
+        }
     }
     
     
