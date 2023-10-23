@@ -11,3 +11,16 @@ Acumulan sobre resultado
 -multiplicar x: doble
 -dividir x: doble
 -reset
+
+
+Crea un diagrama dunha clase que se chame menú 
+con un atributo de tipo enteiro que se chama selección (privado), getter correspondente
+define un método público imprimir que lle pregunte ao usuario qué operación quere facer.
+As operacións son: resetear, co código ;
+sumar, código ;
+restar, 2;
+multiplicar, 3;
+dividir, 4;
+Se o usuario non escolle ningunha desas opcións o atributo privado ten que valer -1
+
+Creamos unha clase menuTest

@@ -32,4 +32,19 @@ public class Calculadora {
     public Calculadora(double a) {
         this.resultado = a;
     }
+
+
+    //GETTERS & SETTERS
+    public double getResultado() {
+        return resultado;
+    }
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+
+
+
+
+
+    
 }
