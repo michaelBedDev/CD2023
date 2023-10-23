@@ -24,3 +24,10 @@ dividir, 4;
 Se o usuario non escolle ningunha desas opcións o atributo privado ten que valer -1
 
 Creamos unha clase menuTest
+
+
+nueva clase app
+public method start no parameters void.
+Tiene q arrancar y crear una calculadora para que funcione hasta que el usuario introduzca la opcion 
+
+crear otra clase app test
