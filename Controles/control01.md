@@ -1,4 +1,4 @@
-## Control01.java
+## Control01 Java
 
 Compilamos y ejecutamos desde el teminal el archivo StringExample.java
 Está en el directorio /home/vagrant/Descargas
@@ -15,8 +15,8 @@ Compilamos
 ```bash 
 javac StringExample.java
 ```
-Ejecutamos
 
+Ejecutamos
 ```bash
 java StringExample.java
 ```
