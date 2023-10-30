@@ -29,6 +29,9 @@ public class Menu {
         return seleccion;
     }
 
+    public double getNumeroValido() {
+        return 3.0;
+    }
 
     //GETTERS & SETTERS
     public int getSeleccion() {
