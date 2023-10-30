@@ -1,4 +1,4 @@
-package CD2023.ud5;
+package CD2023.ud5.AppCalculadora;
 
 import java.util.Scanner;
 

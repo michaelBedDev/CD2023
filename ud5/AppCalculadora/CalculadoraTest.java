@@ -1,6 +1,6 @@
-package CD2023.ud5;
+package CD2023.ud5.AppCalculadora;
 
-public class TestCalculadora {
+public class CalculadoraTest {
     
     public static void main(String[] args) {
         Calculadora calc = new Calculadora(45);
