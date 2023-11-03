@@ -4,12 +4,16 @@ import java.util.Scanner;
 
 public class Menu {
     private int seleccion = -1;
-
+    private Scanner sc = new Scanner(System.in);
 
     private void imprimir() {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("¿Qué opción deseas escoger? 0/1/2/3/4");
+        System.out.println("¿Qué opción deseas escoger?");
+        System.out.println("0-Reset");
+        System.out.println("1-Sumar");
+        System.out.println("2-Restar");
+        System.out.println("3-Multiplicar");
+        System.out.println("4-Dividir");
         int valorTeclado= sc.nextInt();
 
         if (valorTeclado >-1 && valorTeclado <5) {
@@ -18,11 +22,10 @@ public class Menu {
         else{
             setSeleccion(-1);
         }
-
-        sc.close();
     }
 
     public int getSeleccionValida() {
+        this.seleccion = -1;
         while (seleccion == -1) {
         imprimir();
         }
@@ -30,7 +33,14 @@ public class Menu {
     }
 
     public double getNumeroValido() {
-        return 3.0;
+        System.out.println("¿Qué número deseas introducir?");
+        
+        do {
+            sc.nextLine();
+            System.out.println("Número: ");
+        } while (!sc.hasNextDouble());
+        
+        return sc.nextDouble();
     }
 
     //GETTERS & SETTERS
