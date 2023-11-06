@@ -1,4 +1,4 @@
-package CD2023.ud5;
+package cd2023.ud5;
 
 public class Perrito{
 
@@ -7,16 +7,16 @@ public class Perrito{
     String color;
     boolean chip;
     int numChip;
-    
+
     public void ladrar() {
         System.out.println("Guau guau");
-    
+
     }
-    
+
     public void durmir() {
         System.out.println("Marcho durmir");
     }
-    
+
     public void comer() {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);

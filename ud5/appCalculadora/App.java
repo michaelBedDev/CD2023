@@ -1,4 +1,4 @@
-package CD2023.ud5.AppCalculadora;
+package cd2023.ud5.appCalculadora;
 
 public class App {
 
@@ -21,27 +21,27 @@ public class App {
                 case 0:
                     calculadora.reset();
                     break;
-                
+
                 case 1:
                     numero = menu.getNumeroValido();
                     calculadora.sumar(numero);
                     break;
-                
+
                 case 2:
                     numero = menu.getNumeroValido();
                     calculadora.restar(numero);
                     break;
-                
+
                 case 3:
                     numero = menu.getNumeroValido();
                     calculadora.multiplicar(numero);
                     break;
-                
+
                 case 4:
                     numero = menu.getNumeroValido();
                     calculadora.dividir(numero);
                     break;
-                
+
                 default:
                     break;
             }
@@ -49,4 +49,3 @@ public class App {
         }
     }
 }
-

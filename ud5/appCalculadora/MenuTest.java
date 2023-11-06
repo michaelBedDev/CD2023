@@ -1,4 +1,4 @@
-package CD2023.ud5.AppCalculadora;
+package cd2023.ud5.appCalculadora;
 
 public class MenuTest {
     public static void main(String[] args) {

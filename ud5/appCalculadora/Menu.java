@@ -1,4 +1,4 @@
-package CD2023.ud5.AppCalculadora;
+package cd2023.ud5.appCalculadora;
 
 import java.util.Scanner;
 
@@ -34,12 +34,12 @@ public class Menu {
 
     public double getNumeroValido() {
         System.out.println("¿Qué número deseas introducir?");
-        
+
         do {
             sc.nextLine();
             System.out.println("Número: ");
         } while (!sc.hasNextDouble());
-        
+
         return sc.nextDouble();
     }
 
@@ -51,5 +51,5 @@ public class Menu {
     public void setSeleccion(int seleccion) {
         this.seleccion = seleccion;
     }
-    
+
 }
