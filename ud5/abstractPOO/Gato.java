@@ -1,3 +1,4 @@
+package ud5.abstractPOO;
 public class Gato extends Animal implements Imprimible{ //implements interfaz (clase abstracta pura)
 
     @Override

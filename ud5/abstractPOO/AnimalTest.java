@@ -1,3 +1,4 @@
+package ud5.abstractPOO;
 public class AnimalTest {
     public static void main(String[] args) {
         Gato gato = new Gato();  //Variable animal clase Gato

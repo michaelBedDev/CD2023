@@ -1,3 +1,4 @@
+package ud5.abstractPOO;
 abstract class Animal {                              //Se crea la clase abstracta para definir un método "común" para cada clase hija
     public abstract void animalSound();
 

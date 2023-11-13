@@ -1,4 +1,4 @@
-package cd2023.ud5.personaSocio;
+package ud5.personaSocio;
 
 public class Persona {
     private DNI NIF;

@@ -1,3 +1,4 @@
+package ud5.abstractPOO;
 public class Can extends Animal{
 
     @Override

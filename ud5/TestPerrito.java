@@ -1,4 +1,4 @@
-package cd2023.ud5;
+package ud5;
 
 public class TestPerrito {
     public static void main(String[] args) {
