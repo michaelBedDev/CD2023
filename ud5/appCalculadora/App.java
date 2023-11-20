@@ -1,13 +1,15 @@
-package cd2023.ud5.appCalculadora;
+package ud5.appCalculadora;
 
 public class App {
 
     private Menu menu;
     private Calculadora calculadora;
+    private CalculadoraAvanzada calculadoraAvanzada;
 
     public App() {
         menu = new Menu();
         calculadora = new Calculadora();
+        calculadoraAvanzada = new CalculadoraAvanzada();
     }
 
     public void start() {
@@ -40,6 +42,20 @@ public class App {
                 case 4:
                     numero = menu.getNumeroValido();
                     calculadora.dividir(numero);
+                    break;
+
+                case 5:
+                    numero = menu.getNumeroValido();
+                    calculadoraAvanzada.cuadrado();
+                    break;
+
+                case 6:
+                    numero = menu.getNumeroValido();
+                    calculadoraAvanzada.raíz();
+                    break;
+
+                case 7:
+                    calculadoraAvanzada.deshacer();
                     break;
 
                 default:

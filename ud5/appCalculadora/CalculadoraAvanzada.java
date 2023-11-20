@@ -1,14 +1,50 @@
-package cd2023.ud5.appCalculadora;
+package ud5.appCalculadora;
 
 import java.lang.Math;
 
 public class CalculadoraAvanzada extends Calculadora {
+
+    private double resultadoAnterior;
+
     public void raíz() {
-        this.resultado = Math.sqrt(this.resultado);
+        resultadoAnterior = getResultado();
+        setResultado(Math.sqrt(getResultado()));
     }
 
     public void cuadrado() {
-        this.resultado = Math.pow(this.resultado, 2);
+        resultadoAnterior = getResultado();
+        setResultado(Math.pow(getResultado(), 2));
 
+    }
+
+    public void deshacer() {
+        resultadoAnterior = getResultado();
+        setResultado(this.resultadoAnterior);
+    }
+
+    @Override
+    public void sumar(double x) {
+        resultadoAnterior = getResultado();
+        super.sumar(x);
+    }
+    @Override
+    public void restar(double x) {
+        resultadoAnterior = getResultado();
+        super.restar(x);
+    }
+    @Override
+    public void multiplicar(double x) {
+        resultadoAnterior = getResultado();
+        super.multiplicar(x);
+    }
+    @Override
+    public void dividir(double x) {
+        resultadoAnterior = getResultado();
+        super.dividir(x);
+    }
+    @Override
+    public void reset() {
+        resultadoAnterior = 0;
+        super.reset();
     }
 }

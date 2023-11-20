@@ -1,4 +1,4 @@
-package cd2023.ud5.appCalculadora;
+package ud5.appCalculadora;
 
     public class CalculadoraAvanzadaTest {
 

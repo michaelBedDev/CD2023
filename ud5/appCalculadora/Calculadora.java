@@ -1,11 +1,11 @@
-package cd2023.ud5.appCalculadora;
+package ud5.appCalculadora;
 
 /**
  * Calculadora
  */
 public class Calculadora {
 
-    protected double resultado;
+    private double resultado;
 
     public void sumar(double x) {
         this.resultado += x;
@@ -25,6 +25,7 @@ public class Calculadora {
     public void imprimir() {
         System.out.println("Valor actual calculadora: " + this.resultado);
     }
+
 
     //CONSTRUCTORES
     public Calculadora() {}

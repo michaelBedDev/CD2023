@@ -1,4 +1,4 @@
-package cd2023.ud5.appCalculadora;
+package ud5.appCalculadora;
 
 import java.util.Scanner;
 
@@ -14,9 +14,10 @@ public class Menu {
         System.out.println("2-Restar");
         System.out.println("3-Multiplicar");
         System.out.println("4-Dividir");
+        System.out.println("5-Resultado anterior");
         int valorTeclado= sc.nextInt();
 
-        if (valorTeclado >-1 && valorTeclado <5) {
+        if (valorTeclado >-1 && valorTeclado <=5) {
             setSeleccion(valorTeclado);
         }
         else{
