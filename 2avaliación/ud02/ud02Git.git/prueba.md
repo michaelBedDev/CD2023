@@ -83,3 +83,62 @@ Creamos el repositorio nuevo en la carpeta pagina_web
  git commit -m "Añadida información de las ciudades a visitar"
  git log
  ```
+
+# Ejercicio 3
+
+Creamos un nuevo repositorio en local con mkdir y git init 
+
+```bash
+mkdir ejercicio3
+cd ejercicio3
+git init
+```
+
+Creamos el fichero indice.txt con la info del libro.
+
+Y lo añadimos a git
+
+```bash
+git add .
+git commit -a
+git status
+git log
+```
+
+Vemos que el arbol de trabajo está limpio y se ha añadido un commit con "Añadido indice del libro"
+
+Cambiamos la info del indice.txt y hacemos commit
+
+```bash
+git commit -a
+git status
+git log
+```
+
+Creamos la carpeta capítulos y dentro el fichero capítulo2.txt
+
+```bash
+mkdir capítulos
+touch capitulo2.txt
+git add .
+git commit -m "Añadido capitulo 2"
+```
+
+Y lo mismo con capítulo3
+```bash
+touch capítulo3.txt
+```
+
+Con git status --short vemos el estado del repositorio de foma abreviada.
+
+Archivo modificado (M)
+Archivo no rastreado (??)
+Archivo preparado (A).
+
+nos dice ?? capitulo3.txt
+
+Modificamos el indice.txt y subimos los cambios ignorando el capitulo3
+
+```bash
+
+```
