@@ -140,5 +140,5 @@ nos dice ?? capitulo3.txt
 Modificamos el indice.txt y subimos los cambios ignorando el capitulo3
 
 ```bash
-
+nano 
 ```

@@ -1,4 +1,4 @@
-## Descargar IDE
+## Instalar IDE
 ### Necesidad de descargar un entorno de desarrollo para crear un programa con un lenguaje de mi elección, en este caso python
 
 Tras haber analizado opciones, decidí elegir pycharm
