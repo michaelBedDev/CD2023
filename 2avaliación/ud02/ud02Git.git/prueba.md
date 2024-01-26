@@ -137,8 +137,44 @@ Archivo preparado (A).
 
 nos dice ?? capitulo3.txt
 
-Modificamos el indice.txt y subimos los cambios ignorando el capitulo3
+Modificamos el indice.txt y subimos los cambios ignorando el capitulo3. creamos el archivo .gitignore y lo añadimos.
+
+Modificamos el archivo .gitignore para que ignore todos aquellos ficheros que comiencen por _ a excepción del fichero _ayuda.txt
+([_])
+
+Creamos _logs.txt con el contenido "Fichero para almacenar logs"
+```bash
+echo "Fichero para almacenar logs" -> _logs.txt
+```
+
+Creamos el fichero _ayuda.txt con el contenido "Fichero de ayuda" de la misma forma que realizamos antes
+
+Preparar todo con git add *. Explicad qué pasa.
+Se añaden los archivos para trackear
+
+Hacer un commit de los cambios con el mensaje “Añadido capitulo 2”. Comprobar/explicar qué se sube al repositorio.
+```bash
+git commit -m "añadido capítulo 2"
+```
+Modificar el fichero capitulo2.txt (elimina lo que había antes).
+Añadimos al capitulo 2: Caperucita iba por el bosque 
+con su capa roja
+Lo modificamos con el nano
+```bash
+git -m "capitulo 2 modificado"
+```
+Lo volvemos a cambiar por 
+
+Caperucita iba por el bosque con su capa roja 
+cuando llegó a casa de su abuela le dijo 
+"Abuela qué ojos más grandes tienes"
+
+Eliminamos _ayuda.txt
+Cambiamos el nombre del fichero indice.txt por indice_libros.txt
 
 ```bash
-nano 
+git rm ayuda.txt
+git mv indice.txt indice_libros.txt
+git add *
+git commit -m "Ejercicio 2 finalizado"
 ```
