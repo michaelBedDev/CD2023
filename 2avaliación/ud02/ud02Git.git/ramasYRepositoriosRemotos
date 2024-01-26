@@ -1,0 +1,50 @@
+Creamos una nuva rama bibliografía sobre el ejercicio anterior
+```bash
+git branch "bibliografia"
+git checkout bibliografia
+git branch
+```
+
+Creamos el fichero bibliografia.txt con el siguiente contenido:
+caperucita roja,  Trina Schart Hyman, Charles Perrault
+
+Hacemos commit con los cambios "añadida primera referencia bibliográfica"
+
+```bash
+echo "caperucita roja,  Trina Schart Hyman, Charles Perrault" -> bibliografia.txt
+git add bibliografia.txt
+git commit -m "añadida primera referencia bibliográfica"
+```
+
+Fusionar la rama bibliografía con la rama master y eliminar la rama bibliografía.
+Crea la rama harrypotter. En esta rama modifica el fichero bibliografía.txt para que contenga las siguientes referencias:
+ Harry Potter y la piedra filosofal, J. K. Rowling
+ Harry Potter y el cáliza de fuego, J. K. Rowling
+
+ ```bash
+ git checkout master
+ git merge bibliografia
+ git branch "harrypotter"
+ git checkout harrypotter
+ nano bibliografia.txt
+ git add bibliografia.txt
+ git commit -m "Añadida bibliografia de Harry Potter"
+ ```
+
+En la rama master modifica el fichero bibliografía.txt y añadie la siguiente línea:
+El Rey León, Rob Minkoff, Roger Allers 
+Fusiona la rama harrypotter con la rama master. Resuelve el conflicto y comitea los cambios.
+
+```bash
+git checkout master
+nano bibliografia.txt
+git add bibliografia.txt
+git merge harrypotter
+```
+
+
+Resolvemos los cambios manualmente y hacemos commit final
+```bash
+git add bibliografia.txt
+git merge -m "mezcla realizada" 
+```
