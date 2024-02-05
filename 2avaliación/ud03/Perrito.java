@@ -9,7 +9,7 @@ public class Perrito{
     int numChip;
 
     public String ladrar() {
-        println "Guau guau";
+        return "Guau guau";
 
     }
 
