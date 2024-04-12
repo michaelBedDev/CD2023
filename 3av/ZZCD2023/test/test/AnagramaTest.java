@@ -34,4 +34,6 @@ class AnagramaTest {
 
 		assertFalse(anagrama.comprobarAnagrama("Python", "pythoN"));
 	}
+	
+//add test parametrizado
 }
