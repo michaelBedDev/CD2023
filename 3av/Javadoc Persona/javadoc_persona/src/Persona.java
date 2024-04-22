@@ -1,4 +1,3 @@
-package Persona_javadoc;
 /**
  * Class whose instances represent people.
  *
