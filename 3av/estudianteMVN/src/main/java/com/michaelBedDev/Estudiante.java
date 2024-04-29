@@ -12,6 +12,8 @@ public class Estudiante {
 
 /**
  * Constructor de la clase Estudiante.
+ * @param nombre Nombre del estudiante.
+ * @param edad Edad del estudiante.
  */
     public Estudiante(String nombre, int edad) {
         this.nombre = nombre;
@@ -21,6 +23,7 @@ public class Estudiante {
 
 /**
  * Setter que modifica la calificación del estudiante.
+ * @param calificacion Calificación del estudiante.
  */
     public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
@@ -28,6 +31,7 @@ public class Estudiante {
 
 /**
  * Getter que retorna el nombre del estudiante.
+ * @return Nombre del estudiante.
  */
     public String getNombre() {
         return nombre;
@@ -35,6 +39,7 @@ public class Estudiante {
 
 /**
  * Setter que modifica el nombre del estudiante.
+ * @param nombre Nombre del estudiante.
  */
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -42,6 +47,7 @@ public class Estudiante {
 
 /**
  * Getter que retorna la edad del estudiante.
+ * @return Edad del estudiante.
  */
     public int getEdad() {
         return edad;
@@ -49,6 +55,7 @@ public class Estudiante {
 
 /**
  * Setter que modifica la edad del estudiante.
+ * @param edad Edad del estudiante.
  */
     public void setEdad(int edad) {
         this.edad = edad;
@@ -56,6 +63,7 @@ public class Estudiante {
 
 /**
  * Getter que retorna la calificación del estudiante.
+ * @return Calificación del estudiante.
  */
     public double getCalificacion() {
         return calificacion;
@@ -64,6 +72,7 @@ public class Estudiante {
 
 /**
  * Método que determina si el estudiante aprobó.
+ * @return true si la calificación es mayor o igual a 5.0, false en caso contrario.
  */
     public boolean aprobo() {
         return calificacion >= 5.0;
@@ -71,6 +80,7 @@ public class Estudiante {
 
 /**
  * Método que determina si el estudiante está en edad escolar
+ * @return La edad del estudiante en años escolares.
  */
     public int edadEscolar() {
         return edad / 12;
@@ -78,6 +88,7 @@ public class Estudiante {
 
 /**
  * Método que determina si el estudiante es universitario. +18 años.
+ * @return true si es mayor o igual a 18 años, false en caso contrario.
  */
     public boolean esUniversitario() {
         return edad >= 18;
