@@ -1,4 +1,4 @@
-package com.michaelBedDev;
+package com.michaelbeddev;
 /**
  * Clase que representa a un estudiante.
  */
@@ -97,9 +97,11 @@ public class Estudiante {
 /**
  * Método que imprime la información del estudiante.
  */
-    public void imprimirInformacion() {
+    public String imprimirInformacion() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
         System.out.println("Calificación: " + calificacion);
+
+        return "Nombre: " + nombre + "\nEdad: " + edad + "\nCalificación: " + calificacion;
     }
 }
